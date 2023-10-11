@@ -16,13 +16,28 @@
 }
 
 body {
-    /* font-family: 'Big Shoulders Display', sans-serif; */
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
 }
 
+#app {
+    padding: 2.4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 3.2rem;
+
+
+}
+
 .sedans-card {
     background-color: var(--primary-bright-orange);
+
+    border-top-left-radius: 2.0rem;
+    border-top-right-radius: 2.0rem;
 }
 
 .suvs-card {
@@ -31,5 +46,18 @@ body {
 
 .luxury-card {
     background-color: var(--primary-very-dark-cyan);
+
+    border-bottom-left-radius: 2.0rem;
+    border-bottom-right-radius: 2.0rem;
 }
 
+.card-title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: var(--neutral-very-light-gray);
+    font-size: 3.6rem;
+}
+
+p {
+    color: var(--neutral-transparent-white);
+    line-height: 160%;
+}
