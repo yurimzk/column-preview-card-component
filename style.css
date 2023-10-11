@@ -64,3 +64,25 @@ p {
     color: var(--neutral-transparent-white);
     line-height: 160%;
 }
+
+.btn {
+    background-color: var(--neutral-very-light-gray);
+    line-height: 160%;
+    font-weight: 700;
+    width: 14.6rem;
+    border: none;
+    border-radius: 3.2rem;
+    padding: 1.6rem;
+}
+
+.btn-sedan {
+    color: var(--primary-bright-orange);
+}
+
+.btn-suv {
+    color: var(--primary-dark-cyan);
+}
+
+.btn-luxury {
+    color: var(--primary-very-dark-cyan);
+}
