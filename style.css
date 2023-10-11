@@ -27,9 +27,8 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
-    padding: 3.2rem;
-
+    gap: 2.4rem;
+    padding: 4.0rem 5.0rem;
 
 }
 
@@ -55,6 +54,10 @@ body {
     font-family: 'Big Shoulders Display', sans-serif;
     color: var(--neutral-very-light-gray);
     font-size: 3.6rem;
+}
+
+img {
+    width: 5.6rem;
 }
 
 p {
