@@ -89,7 +89,21 @@ p {
 
 @media (min-width: 1440px) {
     #app {
-        display: flex;
+        display: grid;
+        place-items: center;
+    }
+
+    .card {
+        padding: 5.6rem 6.4rem 5.6rem 5.6rem;
+        gap: 4.0rem;
+    }
+
+    .card-title {
+        font-size: 4.2rem;
+    }
+
+    img {
+        width: 6.4rem;
     }
 
     .sedans-card {
@@ -102,5 +116,9 @@ p {
         border-top-right-radius: .8rem;
         border-bottom-right-radius: .8rem;
         border-bottom-left-radius: 0;
+    }
+
+    .btn {
+        margin-top: 4.0rem;
     }
 }
