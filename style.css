@@ -20,3 +20,16 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
 }
+
+.sedans-card {
+    background-color: var(--primary-bright-orange);
+}
+
+.suvs-card {
+    background-color: var(--primary-dark-cyan);
+}
+
+.luxury-card {
+    background-color: var(--primary-very-dark-cyan);
+}
+
