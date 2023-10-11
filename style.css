@@ -35,8 +35,8 @@ body {
 .sedans-card {
     background-color: var(--primary-bright-orange);
 
-    border-top-left-radius: 2.0rem;
-    border-top-right-radius: 2.0rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
 }
 
 .suvs-card {
@@ -46,8 +46,8 @@ body {
 .luxury-card {
     background-color: var(--primary-very-dark-cyan);
 
-    border-bottom-left-radius: 2.0rem;
-    border-bottom-right-radius: 2.0rem;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
 }
 
 .card-title {
@@ -85,4 +85,22 @@ p {
 
 .btn-luxury {
     color: var(--primary-very-dark-cyan);
+}
+
+@media (min-width: 1440px) {
+    #app {
+        display: flex;
+    }
+
+    .sedans-card {
+        border-top-left-radius: .8rem;
+        border-bottom-left-radius: .8rem;
+        border-top-right-radius: 0;
+    }
+    
+    .luxury-card {
+        border-top-right-radius: .8rem;
+        border-bottom-right-radius: .8rem;
+        border-bottom-left-radius: 0;
+    }
 }
